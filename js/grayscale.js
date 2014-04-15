@@ -13,10 +13,17 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 100, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    $('.fullstory').bind('click', function(event){
+      $('#fullstory-long').toggle();
+      $('#fullstory-short').toggle();
+    });
 });
+
+
 
 //Google Map Skin - Get more at http://snazzymaps.com/
 var myOptions = {
