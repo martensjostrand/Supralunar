@@ -2,7 +2,7 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #000000;
+  color: #333333;
   background-color: #ffffff;
 }
 html {
@@ -52,7 +52,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #000000;
+  background-color: #333333;
 }
 .navbar-brand {
   font-weight: 700;
@@ -61,7 +61,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: #000000;
+  color: #333333;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -77,7 +77,7 @@ a:focus {
 .navbar-toggle {
   padding: 4px 6px;
   font-size: 16px;
-  color: #000000;
+  color: #333333;
 }
 .navbar-toggle:focus,
 .navbar-toggle:active {
@@ -106,7 +106,7 @@ a:focus {
   width: 100%;
   height: auto;
   padding: 100px 0;
-  color: #000000;
+  color: #333333;
 }
 .intro-body {
   display: table-cell;
@@ -135,10 +135,10 @@ a:focus {
   height: 70px;
   margin-top: 15px;
   padding: 7px 16px;
-  border: 2px solid #000000;
+  border: 2px solid #333333;
   border-radius: 35px;
   font-size: 40px;
-  color: #000000;
+  color: #333333;
   background: transparent;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
@@ -147,7 +147,7 @@ a:focus {
 .btn-circle:hover,
 .btn-circle:focus {
   outline: none;
-  color: #000000;
+  color: #333333;
   background: rgba(255, 255, 255, 0.1);
 }
 .page-scroll .btn-circle i.animated {
@@ -202,12 +202,12 @@ a:focus {
   padding-bottom: 150px;
 }
 .text-section {
-  color: #000000;
+  color: #333333;
 }
 .about-section {
   width: 100%;
   padding: 50px 0;
-  color: #000000;
+  color: #333333;
   background-color: #ffffff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -217,7 +217,7 @@ a:focus {
 .listen-section {
   width: 100%;
   padding: 50px 0;
-  color: #000000;
+  color: #333333;
   background: url(../img/baksida_bw.jpg) no-repeat center center scroll;
   background-color: #ffffff;
   -webkit-background-size: cover;
@@ -259,7 +259,7 @@ a:focus {
 .btn-default:focus {
   border: 1px solid #999999;
   outline: none;
-  color: #000000;
+  color: #333333;
   background-color: #999999;
 }
 .btn-huge {
@@ -302,4 +302,22 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+.releaseDetails {
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 0.7em;
+}
+.album h3 {
+  margin: 0 0 0px;
+}
+.tracks,
+.albums {
+  list-style-type: none;
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  padding: 0px;
+}
+.album {
+  margin-bottom: 2em;
 }
